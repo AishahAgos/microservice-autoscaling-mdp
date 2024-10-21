@@ -1,0 +1,12 @@
+R{"performance_change"}max=? [ C<=1000 ]
+
+R{"energy_consumption"}min=? [ C<=1000 ]
+
+R{"performance_change"}min=? [ C<=1000 ]
+
+filter(print, "deadlock")
+
+R{"energy_consumption"}max=? [ C<=1000 ]
+
+R{"energy_vio"}max=? [ C<=1000 ]
+
